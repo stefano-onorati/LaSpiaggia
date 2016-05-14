@@ -1,0 +1,20 @@
+div.content #animate-area h1, div.content .beachPhoto h4, div.footer h5 {
+	text-shadow:rgba(0,0,0,0) 0px 0px 0px;
+}
+
+div.content #animate-area h1 {
+	font-size:300%;
+	margin-top:1.5em;
+}
+
+div.content p {
+	font-size:100%;
+}
+
+div.footer h5 {
+	font-size: 200%;
+}
+
+div.footer p {
+	font-size:125%;
+}

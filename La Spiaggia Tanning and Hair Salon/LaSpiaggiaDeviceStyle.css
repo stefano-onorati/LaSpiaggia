@@ -1,0 +1,34 @@
+a.back-to-top {
+	font-size:235%;
+}
+
+div.content p {
+	font-size:65%;
+}
+
+.google-maps {
+	width:80%;
+	margin: 5% 10% 0% 10%;
+}
+
+.google-maps iframe {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+p#contactP {
+	position:initial;
+	float:none;
+	width:initial;
+	margin-left:0%;
+	margin-top:5%;
+	text-align:center;
+}
+
+div.footer h5 {
+	font-size: 270%;
+}
+
+div.footer p {
+	font-size:170%;
+}

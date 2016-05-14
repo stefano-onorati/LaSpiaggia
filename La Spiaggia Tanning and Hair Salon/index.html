@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>La Spiaggia Tanning and Hair Salon</title>
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<meta name="keywords" content="'Tanning, Hair, Salon, Toronto, Etobicoke, Rexdale" />
+<meta name="author" content="Stefano Onorati">
+<meta name="description" content="State of the Art Tanning and Hair Salon; located in Etobicoke/Rexdale." />
+<meta name="generator" content="BBEdit 10.0" />
+<link rel="stylesheet" type="text/css" href="LaSpiaggiaStyle.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 350px) and (max-device-width: 768px)" href="LaSpiaggiaDeviceStyle.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)" href="LaSpiaggiaLargeDeviceStyle.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="content">
+	<div id="animate-area">
+		<h1>La Spiaggia Tanning and Hair Salon</h1>
+		<nav>
+			<a href="#home" class="home">Home</a> |
+			<a href="#about" class="about">About</a> |
+			<a href="#contact" class="contact">Contact</a>
+		</nav>
+		<script>
+		$(".home").click(function() {
+    		$('html, body').animate({
+    		scrollTop: $("#home").offset().top
+    		}, 1000);
+		});
+		
+		$(".about").click(function() {
+    		$('html, body').animate({
+    		scrollTop: $("#about").offset().top
+    		}, 1000);
+		});
+		
+		$(".contact").click(function() {
+    		$('html, body').animate({
+    		scrollTop: $("#contact").offset().top
+    		}, 1000);
+		});
+		</script>
+	</div>
+	<a href="#" class="back-to-top">Back to Top</a>
+	<script>
+	jQuery(document).ready(function() {
+    var offset = 200;
+    var duration = 1000;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    	})
+	});
+	</script>
+	<section id="home">
+	<div class="beachPhoto" id="beachHome" style="margin-top:1.5%;">
+	<h4 style="font-size:44px; color:rgb(255,255,255); margin-top:1.5em;">Welcome to La Spiaggia!</h4>	
+	</div>
+	<p>Are you planning a vacation or have a special event and want to look your best?<br /> Then be sure to stop at La Spiaggia Tanning and Hair Salon in Toronto.<br /> Our professional indoor tanning and hair services are for you.<br /> Tanning not only makes you look your best it makes you feel your best, and provides helpful vitamin D.<br /> Call us today to schedule an appointment and get a healthy tan.</p>
+	</section>
+	<section id="about">
+	<div class="beachPhoto" id="beachAbout">
+		<h4 style="font-size:44px; color:rgb(255,255,255); margin-top:1.5em;">About La Spiaggia</h4>
+	</div>
+	<h5>Hours of Operation:</h5>
+	<p style="margin-top:-0.8em;"><strong>Monday:</strong> Closed | <strong>Tuesday - Friday:</strong> 10:00 am - 9:00 pm | <strong>Saturday:</strong> 9:00 am - 6:00 pm | <strong>Sunday</strong> 12:00 pm - 5:00 pm (Seasonal)</p>
+	<h5>Services:</h5>
+	<p style="margin-top:-1em;">
+	Tanning (Bed and Spray)<br />
+	Hair Services for Men, Women, and Children<br />
+	Waxing Services for Men and Women<br />
+	Facial and Skin Care<br /><br />
+	Contact for more information!<br /><br />
+	<strong style="color:rgb(30,153,220);">Walk-ins Welcome, Appointments Recommended!</strong><br /><br />
+	</p>
+	</section>
+	<section id="contact">
+	<div class="beachPhoto" id="beachContact">
+	<h4 style="font-size:44px; color:rgb(255,255,255); margin-top:1.5em;">Contact</h4>
+	</div>
+	<div class="google-maps">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2883.606883571987!2d-79.5700538!3d43.7187181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3a71f4b3d255%3A0x1fbb1bc64435e95a!2s2141+Kipling+Ave%2C+Etobicoke%2C+ON+M9W+4K8!5e0!3m2!1sen!2sca!4v1424738351658" 
+	width="300" height="300" style="border:1px dotted rgb(30,153,220); margin-right:40%;"></iframe></div>
+	<p id="contactP">
+	2141 Kipling Ave., Unit 5A<br />
+	Etobicoke, ON M9W 4K8<br /><br />
+	Located at Kipling Plaza; next to Giant Tiger<br /><br />
+	(647) 344-4441<br /><br />
+	<a href="mailto:gioele@laspiaggiasalon.ca">gioele&#64;laspiaggiasalon.ca</a><br />
+	<a href="mailto:mauro@laspiaggiasalon.ca">mauro&#64;laspiaggiasalon.ca</a><br /><br />
+	</p>
+	</section>
+	</div>
+	<div class="footer">
+	<h5>Find us on these Sites!</h5>
+	<div style="position:absolute; height:170px; width:90%; margin:0 auto; margin-top:30px; text-align:center; z-index:0; overflow:hidden;">
+		<ul id="water">
+			<li id="water-back"></li>
+			<li id="water-front"></li>
+		</ul>
+		<div id="bottom-content">
+		<a href="https://facebook.com" title="Like us on Facebook&trade;"><div class="img fb"></div></a>
+		<a href="https://instagram.com/laspiaggiasalon/" title="Follow us on Instagram&trade;"><div class="img inst"></div></a>
+		<a href="http://www.yellowpages.ca/bus/Ontario/Etobicoke/La-Spiaggia-Tanning-and-Hair-Salon/100563279.html" title="View us on Yellow Pages&trade;"><div class="img yp"></div></a>
+		<p style="text-align:center; margin-top:25px;">&copy; 2015 | designed by Stefano Onorati<br /><br /></p></div>
+		</div>
+	</div>
+</body>
+</html>
